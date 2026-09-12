@@ -1,0 +1,31 @@
+
+> vigil-ai@0.1.0 dev
+> next dev
+
+   ▲ Next.js 15.5.24
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.31.49:3000
+
+ ✓ Starting...
+ ✓ Ready in 1930ms
+ ○ Compiling /dashboard ...
+ ✓ Compiled /dashboard in 3.4s (623 modules)
+ GET /dashboard 200 in 4109ms
+ ○ Compiling / ...
+ ✓ Compiled / in 570ms (628 modules)
+ GET / 200 in 1019ms
+ ✓ Compiled /login in 306ms (621 modules)
+ GET /login 200 in 470ms
+ GET /dashboard 200 in 43ms
+ ✓ Compiled /anomaly in 361ms (628 modules)
+ GET /anomaly 200 in 460ms
+ ✓ Compiled /projects in 473ms (635 modules)
+ GET /projects 200 in 560ms
+ ✓ Compiled /cpgrams in 407ms (642 modules)
+ GET /cpgrams 200 in 488ms
+ ✓ Compiled /rti in 436ms (649 modules)
+ GET /rti 200 in 521ms
+ GET /dashboard 200 in 42ms
+ ✓ Compiled in 840ms (645 modules)
+ ✓ Compiled in 116ms (255 modules)
+ GET /dashboard 200 in 118ms

@@ -1,0 +1,22 @@
+
+> vigil-ai@0.1.0 dev
+> next dev
+
+   ▲ Next.js 15.5.24
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.31.49:3000
+
+ ✓ Starting...
+ ✓ Ready in 2.7s
+ ○ Compiling /login ...
+ ✓ Compiled /login in 6.2s (617 modules)
+ GET /login 200 in 6689ms
+ ○ Compiling /dashboard ...
+ ✓ Compiled /dashboard in 1366ms (615 modules)
+ GET /dashboard 200 in 1672ms
+ GET /dashboard 200 in 80ms
+ ✓ Compiled in 528ms (230 modules)
+ ✓ Compiled in 262ms (244 modules)
+ ✓ Compiled in 157ms (244 modules)
+ ✓ Compiled in 156ms (244 modules)
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'C:\Users\datta\OneDrive\Documents\vigil ai\.next\cache\webpack\client-development\2.pack.gz_' -> 'C:\Users\datta\OneDrive\Documents\vigil ai\.next\cache\webpack\client-development\2.pack.gz'

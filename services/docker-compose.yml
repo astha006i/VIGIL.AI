@@ -1,0 +1,11 @@
+services:
+  anomaly-service:
+    build: ./anomaly-service
+    container_name: vigil-anomaly
+    ports:
+      - "8000:8000"
+    environment:
+      - ANOMALY_USE_ML=${ANOMALY_USE_ML:-1}
+      - ANOMALY_MODEL=${ANOMALY_MODEL:-sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2}
+      - ANOMALY_CACHE_TTL=${ANOMALY_CACHE_TTL:-900}
+    restart: unless-stopped
